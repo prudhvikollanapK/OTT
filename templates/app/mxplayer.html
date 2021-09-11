@@ -1,0 +1,56 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mxplayer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static "css/amazon.css"%}">
+</head> <body>
+<center>
+    <div class="container" align="center">
+    <div class="jumbotron">
+<h1>MXPLAYER</h1>
+
+        MX Player Entertainment
+
+<h3>MX Player is an Indian video streaming and video on demand platform developed by MX Media & Entertainment. It has over 280 million users globally. The platform currently operates on an ad-supported model and has a streaming library of over 150,000 hours across 12 languages including English, Hindi and Tamil.
+   <br> <br><B>Wikipedia</B></h3>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARIAAAC4CAMAAAAYGZMtAAAAulBMVEX///88i/AAAAC/v7+urq4kgu/09PRWVlZTU1Pj7f2FhYV0dHTX19d/f38kJCSZmZkqKipiYmK2trYwhu/MzMxEkPBFRUVubm4QEBDs8/7L3fkzh++8vLzq6upmZmaIsvB6qu+qx/aNjY2fwfewzPbw8PBLS0tBQUFsou4xMTHU1NQVFRXh4eGhoaE2NjZenPFinvEAe+7a5/vD2PhPlfGCsPOuyvWVvPXE2fnQ4Pn///zy9v2gwPBmneqhSKFqAAAN2ElEQVR4nO2d6ULyOhCGS6G4gQsBFCqKoIiKguLycdD7v62TydIsTTdAKzXvD5VuZJ5MJskEouNYWVlZWVlZWVlZWVlZWVlZ5arly3x42R9j9S+H14tl3uXJWZ3rtxbyEPJ9v1TCPxB+0epf7+VdrrzUGb56CKPQ5SPvdfgXqcynHgrj4MJUrvMu4Q/ruuUZ/EP1ldJV3qX8Qc1bMQ4iuUrpr3jK3tRLA4RAeX3Ju7Q/oWFSk1Gaj/eRd3m/XctpqjYjO0on7zJ/rxZ+BhfhjtLNu9TfqevUUUSWV+CuZ7gSEcyksAFlVSKYyWXeZf8erU6kqH6yWhwJmBQwnizWIoKZ/Mvbgk1ruR4QLFS08ck083hEl/+atw2b1eeazYa4SaFC7N4GiOBwUqQ54GztZgMqUtOZb8RJsJsUJ3/S2gwR7Cd5W7IpRQ7S/IyJghIqyoCtFRFJ0Hs3XcZRUt62bEbdKCfx8ODryrRsEeMmxYgm4yj7PFisWV5mib3F6HQ6kW3Do+tXe7MMUAoxNrlKQoKbVvqQUoghbPTsxhOrnFfpc7I5mrIhLaNbhYQEQko6KN72rxbPo9uEal3KkILe87JkY7qMrny9wtOFlH4eVmxUr+mROM57ivFsKw8rNqoYGw1hIcUoxdv2zynFZUqMkXJvnBBn0eLHjdisutm8hNzyGtt6tn5Mf50dCb4pLqSgzx81YPMaroLEcT6iW4+/7St/MX1w7KirM45MsvR/rPDfo7cVkTjOIiKk+OOfKvs3aXUkOKRYJGGZbt56JKvGEiJjD771SD5WRxIxD/Tffqjo36XP1TphPLR/i+iH/W1PIq00VHPi0tRbv3CxWAnJv5g0AZr/ZPm/QZ2s0z4n6ePT25+QjjPOiAQHkZh7sJf8tAUb11eWFJIDn0SJzw0UYCUnZt5nQDIvJaXVtn7WF/uxvRCSlxTfwdj66IqVGklSEGE3bXueEaufZmnLgRaWZiHHn+VlxwYVvZAjI0n5Ra7tTzMSpfCSl9e0K+WoAO0Gz/yi6p8jWfZTf5Fr61NqVJHrFgxJuiDCbtn6oSvVOMJkgiR5JCI7yTRvWzaklwg38TqpRiLyHdu+rBUowk38caqRSAGdJHo6nPW7j0WJJKDITieT0LanGBVt5vPReVuxUUVF2Cwq2veF49aG0wltf1ZAU9TgJK0K1NsEWjecFGJyo6qzFhC0/Z/tNGhvjXBSpBGJrNWZbP3n0yK1V1otxvoF9RHQMv6TeRFAWkX70rSqfuYxG9r2D08kKm7d3KQi7r+gq5MlRYJeC9n5hnSdNpGGCvC1irT6QCmgIHRZwBFrpJZDFJ+E9pH38ZeAEM1nxn08GY9pIZawMqvzPvNDWHyE0PTqbwRVo5aLz37L88guuAjhP0rjYffPNZiw/uu8dP/N5/+6L53/8i6LlZWVlZWVlZWVlVWRVG/34i+oHJbhV+28TNVUT0/Y4fN7foBfiC+t6c8un09SlerxTr6pXDZf1Tunj7sRb8l1XmVXiEP3vWqq9666rhvL5NF1d+C3G2hXPt0Qx9mRXVfR6FF6fMV1H1KWqhK8uMFPuTBdBSfq8Me+G9aAXHKgHnwa3JseFHpz142h1+AMKuLBorT0dqojdmgnVLqTAAp+yGFymRxnoKDDr9ym4aoTXvTUSLDuTE9SRGw6jGRSFm4h1f6NUiqqW34IkBwTHZ7xkw12Li0S+R760nBbM6id/eAtAz3Q2w/EmQdemNOEN6fV/BRx9t4VSG6kaufny+JY4Ak7wmGc6qRxIjtWSiSPWpngbR5DVx0H1+xLRVJ1wJoWUa9cV4tvFvP8tvHkxJWQyGGDhztxRJRYRkIKQqDQqJoSCfUuycPBQ3VPBm41+mdKJKAjtbAm8WCwYzjXcxUkUpQ4C96QaSTu0pHQWEAvSIcErjpRqqkX9ncoOLc2AxLS3OKCpxQfD8KnzjQkUizdh9f34rWILgYkpJJ73Ni40lAd4ieAg0q9w0C4BNOBZFkWJMRPGsaLmYSZ+q3QVlUkctOZ0KIzSX2QCck9d9ZUSMrE2JFqpisFcFBNNiwTEifscaoMvSjTbXBCDEREB3NHa87Q6gxIglKkQnJLzGi6PAARlTXwTzKibEiwEcdx7y8hUaOO1Ofumq5+7Im/b+QbTUh2WDBJg+SesThWGzOUR7yqKMCyIdkPYqFZMhL3XBy/kA5Lw9Xz4ODZU/Cn2jJNSE5ZnaZBssPsg1YqDXyhBvaDV8qLjEgGCtywFCSi31NGffII/sQNSeusIpCQ/iMFEoirNJA+KGYTS7hj1FWrsiE5SCiEioQH+YFycDf6epDWo5mQtFmZUyA5DXr0R+3ZoiQT1aMzIrlLGKzpJk54YSKQyANWKn2WGhFeyZwjGcmN5Kuu+qRy8GYjZSCUEQnwjB2rhWq9p/S1YSRQjbJCc1QDkgq3MxnJvtQdgK9qTyZx8dzVZu/7EVNlIxLssWp/oCuE5KHa1A+pSBz1ZOiJYSTV4LpEJHBpEK3BY+SOt8fchvtcIIzk6bwhiw/rwkig39h34hSODXehIxoSBVl4qh1CUn0KTEtEcqR0kAdaemVAKngQ6kTDyYEH8QTZ/moFRuSxoxJjuExCotwSTj/pSM6lRyQicZV2PnG1Hh4bdAG+o8WvWCTtRoXqqE7HDbcJybXAvqfQY4MjGhKlHw6nFWQkvebgUL4qCQkEHfn1qValZVosfY4KSNqybrlrhFNI4divS0z79K7kLEiQqEi04GsaqeoKYl8SEuwFDxcnQlArStOkY2rdNWN7HEXHleT8a4DklKYShCZBHFWQ3Liufp2qEJK2MCoBybl+K0jpbnvGWohFchgwhntTZKQlJE5dLsm9Y0YSsvhOe6J6wehIRpaAJNx4QUpSYOAaOrlYJCK81nRbzJKRyNZAVDMhkbLSXGqHCA85qN2DahO9/49HAl3ZUUXVg2Ztw/SEtEM14FkxXyhJQSKqifimAUmo2YSq0Th65YpHMjIk99Qp75pISAoodpgGUpFUWRqbPsaAZBRwqIhRrNrPr4wE/Dq8zOKqOYL1kMBbjMxXCqlIWLp1JyiNhkRMfm5DaUeulZFcaIkzqiO1YtdDQrrrpKajISEcecFCSCaCwkTpjeXKXRUJ1IZhobOqIl8TCUmOJqz46khwjAs8K4RE9AjEaJF4k4fdqyKpRyS7oGJF17kuEsjZmVdoAoWQSNKRiIEL7XilWCu974pIqlEuzSd7VOsiIYTTreOkQCI1G9bHSD2yGI6tiGTgRqX/LuQzayMh62axTScDEjFFDtq2yOILn18RiRt5W032nygk6fMlMPqJ7XXSIxkYIoeUpQ96ygQkZzVd5IyeVZS1KxGPQtKeaE+lDzMlGusJTSc1kpqpkcjzIn40AUlYpLs6M5SdC+qV5wiikIREPdmEBPLccU0nDRLiZmJpT1kqlRJOrJJ3syJpOqEVCk3HYibVMH1ox4SEkjAiSWo6PBwYoj3vZMFCEVvVh/WCZVIecw9iBkOhHCYIxuuD0FRJ1r0A3jRZ82h4Kq2WgbF+tOGflZWVlZWVlZWV1V/ShXsGck9gTkmz53d4itSgh89cGHXj33enTTJVpvNoPCZvdPwWVYnsz8l397mEzSnnQ/piUSp1nD3p/+Es+3AFvQ/f8cm26b8utZwlO9xq5b0tO/8Y2y4YTGaLZZjgBKlYMZU5IDMyklC9dY+dvWcPNtFGngc0Os9sJ4pL5DtO95liWHgeRvIsNqlo9eGKkgeaOs4VO/WOSs7S48/Le+dCjKTJvphzQadPI5iKYSSP5HsvBMlR+fGQTOnpmkYZyCz/dbtvvj/vdmGHsA/E/gEsRYI84joUiefx/9kwQ31yxaKLtYD/K0R3SgIkDn7eB0JzciJXXYiETo1MYCfEExpiDapJZvxVMml9JBPjO54DHiL+n10Q37qUISmB8RwJ3zJ6jGDP9cvgJvi35x60MYLEga2nfsO/d7iQUqFt+PuAMGqIZb8mbS1tktrAzgLr32xdAyOhJmCb2E6dHImPZgIJ3Ysct5gwkpJ3qSD5BVuwSV4CDaLi0Lyd6iWA5IkkwKDNjIKVzQBJC2FryBZ7HEkfYSYBEh+H2SEOFSEk06mP3mBjMvL6tyBx9+v1Ok2uHbq7ZZrfwUhO4XCNN5wmSxK34bNenBZH0vVKOE6QTochQcsp8qcviCBB2Ata7x56G7NY8nGJtQQkLQf709v8tyFhPYtDUoe3NJfHexwaXndPb3nuELK2QRqTI5l5H84csdZBw+sSM/JnJYrk5dor+X7LmVIkJYSQ90yQ+M6yhduY/8uQCC9xeKpQ8xLQLXONUymvypC8ePCL7oTMkXQgmuI+lSBZkFaz5EgkL8EXO6+wdzt53m9BIi9UHvFV9YYwHCM5GYhPFAyk9QiG5M0vTV9fW+S/AUlInD4KkDhv4EMMiRRLAAk+/MuQuEcDEHlV5csVGEmdHJ/QWNIIcvlhJEsPBlh4oOUPVSTOJQ2vZLdXaFXcS66GoAAJ+BP5/TuQnLhyMHHqzGeCBYkm63F2OCwFiQeOMfRaC6yXMRhIfKDrMdM+nslQje+2/ur1CRIAiJ4xEo85TJ/+fvd+A5L9XSq2eDBhSxTlET3crjn37RGGcTPapSu1j6N2gOT66wv/HH/RnRhfZrN/ziccWsxmbMg17Did2YzvgNv/wgP9z68x0Qx2q/tiZ+iG7PPgPisrKysrKysrKysrKysrK6uV9T/SqAx361oyJwAAAABJRU5ErkJggg==" align="right">
+        <br><B>Owner:</B> Times Internet
+  <br><B>Parent:</B> The Times Group
+  <br><B>Headquarters:</B> Mumbai, India
+  <br><B>Launched:</B> As video player: 18 July 2011; As OTT: 20 February 2019
+  <br><B>Created by: </B>J2 Interactive
+         <br><B> Rating:</B>4.2
+  <br><B>Available in: </B>English Language, Telugu language, Tamil, Hindi,....
+
+<br></div>
+         <div id="tt">  <a class="btn btn-primary btn-lg" href="/ " >PREVIOUS PAGE</a></div>
+{% if keeey %} <br><br>
+<div class="cc">
+<table border="5"><center>
+    <thead><center>
+    <th>OTT Platfrom Name</th>
+     <th>Subscribers in Millions</th>
+     <th>Premium/Annually</th>
+        <th>Content</th></center>
+    </thead></center>
+    {% for x in keeey %}
+    <tr>
+        <td>{{x.name}}</td>
+        <td>{{x.subscribers}}</td>
+             <td>{{x.premium}}</td>
+             <td>{{x.content}}</td>
+        </tr>
+    {% endfor%}
+</table>
+    </center>
+{% endif%}
+
+
+
+    </tr></div><center>
+  <br> <h4><marquee behavior=" " bgcolor="#f9f9p9">The above statistics table is related to INDIA upto year 2020</marquee></h4></center>>
+</body>
+</html>
